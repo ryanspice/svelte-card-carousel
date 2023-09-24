@@ -1,0 +1,58 @@
+{
+	"cards": [
+		{
+			"imageSrc": "https://source.unsplash.com/featured/?landscape",
+			"videoSrc": "https://www.shutterstock.com/shutterstock/videos/1052743418/preview/stock-footage--aerial-drone-distant-sunset-view-of-tour-eiffel-tower-and-seine-river-bridge-traffic-cars-driving.webm",
+			"title": "Stunning Random, Landscape",
+			"label": "Nature",
+			"paragraph": "This is a beautiful landscape. The rolling hills stretch out as far as the eye can see. The sky above is a brilliant blue, dotted with fluffy clouds.",
+			"buttonText": "Learn More",
+			"buttonLink": "https://google.ca/"
+		},
+		{
+			"imageSrc": "https://source.unsplash.com/featured/?tower",
+			"videoSrc": "https://www.shutterstock.com/shutterstock/videos/1058930630/preview/stock-footage-beautiful-waterfall-in-green-forest-top-view-tropical-in-mountain-jungle-waterfall-in-the.webm",
+			"title": "Random, Iconic Skyscraper",
+			"label": "Architecture",
+			"paragraph": "This is an iconic tower. It stands tall against the skyline, a testament to human ingenuity and architectural brilliance.",
+			"buttonText": "Learn More",
+			"buttonLink": "https://google.ca/"
+		},
+		{
+			"imageSrc": "https://source.unsplash.com/featured/?bus",
+			"videoSrc": "https://www.shutterstock.com/shutterstock/videos/1101373195/preview/stock-footage--k-a-man-s-finger-touching-a-sunglasses-on-a-office-table-k.webm",
+			"title": "City Bus, Random Transit",
+			"label": "Transport",
+			"paragraph": "This is a city bus. It's a vital part of the public transportation system, helping people get from point A to point B efficiently.",
+			"buttonText": "Learn More",
+			"buttonLink": "https://google.ca/"
+		},
+		{
+			"imageSrc": "https://source.unsplash.com/featured/?table,phone",
+			"videoSrc": "https://www.shutterstock.com/shutterstock/videos/1107171225/preview/stock-footage-girl-writer-noting-information-to-copybook-from-smartphone-sitting-wooden-table-forest-close-up.webm",
+			"title": "Minimalist, Random Workspace",
+			"label": "Lifestyle",
+			"paragraph": "This is a table with a phone. The setup is clean and minimalistic, perfect for focused work or casual browsing.",
+			"buttonText": "Learn More",
+			"buttonLink": "https://google.ca/"
+		},
+		{
+			"imageSrc": "https://source.unsplash.com/featured/?mountain",
+			"videoSrc": "https://www.shutterstock.com/shutterstock/videos/1107591611/preview/stock-footage-sunset-on-amorgos-island-aerial-timelapse-from-above-traditional-greece-orange-sky-over-mountian.webm",
+			"title": "Majestic Peaks, Random",
+			"label": "Adventure",
+			"paragraph": "This is a majestic mountain. Its peak reaches high into the sky, challenging adventurers to conquer its heights.",
+			"buttonText": "Learn More",
+			"buttonLink": "https://google.ca/"
+		},
+		{
+			"imageSrc": "https://source.unsplash.com/featured/?random",
+			"videoSrc": "https://www.shutterstock.com/shutterstock/videos/1058410006/preview/stock-footage-beautiful-nature-of-iceland-car-driving-on-the-road-to-iceland-inside-view-of-a-car-road-number.webm",
+			"title": "Random, Random Imagery",
+			"label": "Miscellaneous",
+			"paragraph": "This is a random image. It could be anything, from a serene landscape to a bustling cityscape.",
+			"buttonText": "Learn More",
+			"buttonLink": "https://google.ca/"
+		}
+	]
+}

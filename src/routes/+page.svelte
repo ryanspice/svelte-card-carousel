@@ -1,3 +1,9 @@
-<h1>Welcome to your library project</h1>
-<p>Create your package using @sveltejs/package and preview/showcase your work with SvelteKit</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	export let data;
+	import CardCarousel from './../lib/components/CardCarousel.svelte';
+</script>
+
+<h1>Svelte Card Carousel</h1>
+<hr />
+<CardCarousel data={data.props.translation.cards} autoScroll={true} />
+<hr />
