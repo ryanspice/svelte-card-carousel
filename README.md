@@ -15,19 +15,19 @@ The ultimate card carousel component for Svelte 4.
 
 ## Installation
 ```bash
-yarn add svelte-card-carousal
+yarn add svelte-card-carousel
 ```
 ```bash
-npm install svelte-card-carousal
+npm install svelte-card-carousel
 ```
 ```bash
-pnpm install svelte-card-carousal
+pnpm install svelte-card-carousel
 ```
 
 ## Import Component
 ```jsx
 <script>
-  import Carousel from 'svelte-card-carousal';
+  import Carousel from 'svelte-card-carousel';
   ...
 </script>
 ```
@@ -36,7 +36,7 @@ pnpm install svelte-card-carousal
 If you're using SvelteKit, follow these additional steps:
 1. Install as a dev dependency.
 ```bash
-pnpm install svelte-card-carousal -D
+pnpm install svelte-card-carousel -D
 ```
 2. Extend `kit` in `svelte.config.js` to include the `vite` property.
 ```js

@@ -1,5 +1,5 @@
 {
-	"name": "svelte-card-carousal",
+	"name": "svelte-card-carousel",
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "vite dev",
