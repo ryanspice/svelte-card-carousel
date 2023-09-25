@@ -8,30 +8,64 @@
 
 The ultimate card carousel component for Svelte 4.
 
+## Demo
+* [REPL](https://replit.com/@spiceryan/Svelte-Card-Carousel-Demo)
+
+
 ## Installation
 ```bash
 yarn add svelte-card-carousel
 ```
 ```bash
-npm install svelte-card-carousel
+npm i svelte-card-carousel
 ```
 ```bash
-pnpm install svelte-card-carousel
+pnpm i svelte-card-carousel
 ```
 
 ## Import Component
-```jsx
+```svelte
 <script>
   import Carousel from 'svelte-card-carousel';
   ...
 </script>
 ```
 
+## Usage
+
+```svelte
+<Carousel
+  data={data}
+  autoScroll={true}
+  autoScrollSpeed={3000}
+  dragAcceleration={1.5}
+  wrapLeft={true}
+  wrapRight={true}
+/>
+```
+
+## Data
+```json
+{
+	"cards": [
+		{
+			"imageSrc": "https://source.unsplash.com/featured/?landscape",
+			"videoSrc": "https://www.shutterstock.com/shutterstock/videos/1052743418/preview/stock-footage--aerial-drone-distant-sunset-view-of-tour-eiffel-tower-and-seine-river-bridge-traffic-cars-driving.webm",
+			"title": "Stunning Random, Landscape",
+			"label": "Nature",
+			"paragraph": "This is a beautiful landscape. The rolling hills stretch out as far as the eye can see. The sky above is a brilliant blue, dotted with fluffy clouds.",
+			"buttonText": "Learn More",
+			"buttonLink": "https://google.ca/"
+		}
+  ]
+}
+```
+
 ## SvelteKit Support
 If you're using SvelteKit, follow these additional steps:
 1. Install as a dev dependency.
 ```bash
-pnpm install svelte-card-carousel -D
+pnpm i svelte-card-carousel -D
 ```
 2. Extend `kit` in `svelte.config.js` to include the `vite` property.
 ```js
@@ -39,7 +73,7 @@ const config = {
   kit: {
     vite: {
       optimizeDeps: {
-        include: ['dependency1', 'dependency2']
+        include: ['svelte-card-carousel']
       }
     }
   }
