@@ -9,7 +9,7 @@
 The ultimate card carousel component for Svelte 4.
 
 ## Demo
-* [REPL](https://replit.com/@spiceryan/Svelte-Card-Carousel-Demo)
+* [REPL](https://replit.com/@spiceryan/Svelte-Card-Carousel-Demo?v=1)
 
 
 ## Installation
